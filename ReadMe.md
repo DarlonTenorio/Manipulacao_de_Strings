@@ -15,8 +15,8 @@ Esse código é uma implementação de duas classes em Java,`Va1` e `Va2`. A cla
 
 - Finalmente, temos o método main da classe Va2, onde criamos um objeto "o" da classe Va2, porém com a referência ao tipo Va1. Em seguida, chamamos o método `fin()` passando o objeto **"o"** e o retorno de **o**.`getStr()` com o argumento `"cpr"` sendo 5.
 
-- O método `fin()` retorna a concatenação de duas sub-strings, uma retornada pelo método ini() e outra retornada diretamente da string original. A sub-string retornada pelo método ini() é calculada a partir da posição final da string original, com base no argumento "cpr".
+- O método `fin()` retorna a concatenação de duas sub-strings, uma retornada pelo método `ini()` e outra retornada diretamente da string original. A sub-string retornada pelo mét`ini()` é calculada a partir da posição final da string original, com base no argumento `"cpr"`.
 
 - Ao final, temos a saída "lmnoplmnop", que corresponde à concatenação de duas sub-strings de tamanho 5, ambas retiradas da string "0123456789ABCDEF".
 
-- Em resumo, a saída "lmnoplmnop" é resultado da manipulação de strings e da chamada de métodos na classe Va2, que herda comportamentos da classe Va1.
+- Em resumo, a saída _"lmnoplmnop"_ é resultado da manipulação de strings e da chamada de métodos na classe `Va2`", que herda comportamentos da classe `Va1`.
