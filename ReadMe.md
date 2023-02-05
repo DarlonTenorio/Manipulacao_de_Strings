@@ -21,7 +21,7 @@ Esse código é uma implementação de duas classes em Java,`Va1` e `Va2`. A cla
 
 - Em resumo, a saída _"lmnoplmnop"_ é resultado da manipulação de strings e da chamada de métodos na classe `Va2`", que herda comportamentos da classe `Va1`.
 
-<br>
+
 <br>
 <br>
 <br>
