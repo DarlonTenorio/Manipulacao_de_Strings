@@ -9,13 +9,13 @@ Esse código é uma implementação de duas classes em Java,`Va1` e `Va2`. A cla
 
 - Primeiramente, é criada uma classe chamada "Main", que possui um método main estático para iniciar a execução do código. Dentro desse método main, temos uma outra classe interna chamada "Va1".
 
-- A classe Va1 possui dois métodos, o getStr() e o ini(). O método getStr() retorna a string "abcdefghijklmnop" e o método ini() retorna uma sub-string de uma string de entrada, com base na posição inicial e final definida pelo argumento "cpr".
+- A classe Va1 possui dois métodos, o `getStr()` e o ini(). O método `getStr()` retorna a string "abcdefghijklmnop" e o método ini() retorna uma sub-string de uma string de entrada, com base na posição inicial e final definida pelo argumento "cpr".
 
-- Depois, temos uma classe interna chamada Va2 que estende a classe Va1 e sobrepõe o método getStr() para retornar a string "0123456789ABCDEF". Além disso, o método ini() é redefinido para retornar uma sub-string de uma string de entrada a partir da posição final.
+- Depois, temos uma classe interna chamada Va2 que estende a classe Va1 e sobrepõe o método `getStr()` para retornar a string _"0123456789ABCDEF"_. Além disso, o método ini() é redefinido para retornar uma sub-string de uma string de entrada a partir da posição final.
 
-- Finalmente, temos o método main da classe Va2, onde criamos um objeto "o" da classe Va2, porém com a referência ao tipo Va1. Em seguida, chamamos o método fin() passando o objeto "o" e o retorno de o.getStr() com o argumento "cpr" sendo 5.
+- Finalmente, temos o método main da classe Va2, onde criamos um objeto "o" da classe Va2, porém com a referência ao tipo Va1. Em seguida, chamamos o método `fin()` passando o objeto **"o"** e o retorno de **o**.`getStr()` com o argumento `"cpr"` sendo 5.
 
-- O método fin() retorna a concatenação de duas sub-strings, uma retornada pelo método ini() e outra retornada diretamente da string original. A sub-string retornada pelo método ini() é calculada a partir da posição final da string original, com base no argumento "cpr".
+- O método `fin()` retorna a concatenação de duas sub-strings, uma retornada pelo método ini() e outra retornada diretamente da string original. A sub-string retornada pelo método ini() é calculada a partir da posição final da string original, com base no argumento "cpr".
 
 - Ao final, temos a saída "lmnoplmnop", que corresponde à concatenação de duas sub-strings de tamanho 5, ambas retiradas da string "0123456789ABCDEF".
 
