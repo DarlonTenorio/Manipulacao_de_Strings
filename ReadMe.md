@@ -28,10 +28,3 @@ Esse código é uma implementação de duas classes em Java,`Va1` e `Va2`. A cla
 <blockquote>
 <p> Eu retirei esse código de uma questão do concurso público do banco do Brasil de 2021, também fiz algumas alteraçoes para que ele pudesse rodar.<p>
 <blockquote>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<p> _P.s.: "cpr" provavelmente significa caractere para retorno_ <p>
