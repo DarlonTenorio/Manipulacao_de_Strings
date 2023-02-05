@@ -11,13 +11,13 @@ Esse código é uma implementação de duas classes em Java,`Va1` e `Va2`. A cla
 
 - Primeiramente, é criada uma classe chamada "Main", que possui um método main estático(_static void main_) para iniciar a execução do código. Dentro desse método main criamos um objeto "o" da classe `Va2` com a referência ao tipo `Va1`. Em seguida, chamamos o método `fin()` passando o objeto **"o"** e o retorno de **o**.`getStr()` com o argumento `"cpr"` sendo 5.
 
-- A classe Va1 possui dois métodos, o `getStr()` e o ini(). O método `getStr()` retorna a string "abcdefghijklmnop" e o método ini() retorna uma sub-string de uma string de entrada, com base na posição inicial e final definida pelo argumento "cpr".
+- A classe Va1 possui dois métodos, o `getStr()` e o ini(). O método `getStr()` retorna a string _"abcdefghijklmnop"_ e o método ini() retorna uma sub-string de uma string de entrada, com base na posição inicial e final definida pelo argumento "cpr".
 
 - Depois, temos uma classe interna chamada Va2 que estende a classe Va1 e sobrepõe o método `getStr()` para retornar a string _"0123456789ABCDEF"_. Além disso, o método ini() é redefinido para retornar uma sub-string de uma string de entrada a partir da posição final.
 
-- O método `fin()` retorna a concatenação de duas sub-strings, uma retornada pelo método `ini()` e outra retornada diretamente da string original. A sub-string retornada pelo mét`ini()` é calculada a partir da posição final da string original, com base no argumento `"cpr"`.
+- O método `fin()` retorna a concatenação de duas sub-strings, uma retornada pelo método `ini()` e outra retornada diretamente da string original. A sub-string retornada pelo método `ini()` é calculada a partir da posição final da string original, com base no argumento `"cpr"`.
 
-- Em resumo, a saída _"lmnoplmnop"_ é resultado da manipulação de strings e da chamada de métodos na classe `Va2`", que herda comportamentos da classe `Va1`.
+- Em resumo, temos a saída _"lmnoplmnop"_ como resultado da manipulação dessas strings e da chamada de métodos na classe `Va2`, que herda comportamentos da classe `Va1`.
 
 
 <br>
@@ -26,5 +26,5 @@ Esse código é uma implementação de duas classes em Java,`Va1` e `Va2`. A cla
 <br>
 <br>
 <blockquote>
-<p>   Eu retirei esse código de uma questão do concurso público do banco do Brasil de 2021, também fiz algumas alteraçoes para que ele pudesse rodar.<p>
+<p> Eu retirei esse código de uma questão do concurso público do banco do Brasil de 2021, também fiz algumas alteraçoes para que ele pudesse rodar.<p>
 <blockquote>
