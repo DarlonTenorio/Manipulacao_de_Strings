@@ -5,7 +5,7 @@
 
 Esse código é uma implementação de duas classes em Java,`Va1` e `Va2`. A classe Va1 tem três métodos: `getStr`, `ini` e `fin`. O método `getStr` retorna uma string **"abcdefghijklmnop"**. O método `ini` retorna uma substring da string fornecida como entrada, com tamanho especificado pelo parâmetro `cpr`. O método `fin` retorna uma string que é a concatenação de duas substrings da string fornecida como entrada: a primeira `cpr` caracteres da string original e as últimas `cpr` caracteres da string original.
 
-<hr>
+<hr/>
 
 - Primeiramente, é criada uma classe chamada "Main", que possui um método main estático para iniciar a execução do código. Dentro desse método main, temos uma outra classe interna chamada "Va1".
 
@@ -20,3 +20,8 @@ Esse código é uma implementação de duas classes em Java,`Va1` e `Va2`. A cla
 - Ao final, temos a saída "lmnoplmnop", que corresponde à concatenação de duas sub-strings de tamanho 5, ambas retiradas da string "0123456789ABCDEF".
 
 - Em resumo, a saída _"lmnoplmnop"_ é resultado da manipulação de strings e da chamada de métodos na classe `Va2`", que herda comportamentos da classe `Va1`.
+
+
+<blockquote>
+<p>Eu retirei esse código de uma questão do concurso público do banco do Brasil de 2021<p>
+<blockquote>
