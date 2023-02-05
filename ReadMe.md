@@ -7,8 +7,7 @@ Esse código é uma implementação de duas classes em Java,`Va1` e `Va2`. A cla
 
 <hr/>
 
-Explicando de uma maneira mais nerd
-===================================
+#### Explicando de uma maneira mais nerd ####
 
 - Primeiramente, é criada uma classe chamada "Main", que possui um método main estático(_static void main_) para iniciar a execução do código. Dentro desse método main criamos um objeto "o" da classe `Va2` com a referência ao tipo `Va1`. Em seguida, chamamos o método `fin()` passando o objeto **"o"** e o retorno de **o**.`getStr()` com o argumento `"cpr"` sendo 5.
 
@@ -17,8 +16,6 @@ Explicando de uma maneira mais nerd
 - Depois, temos uma classe interna chamada Va2 que estende a classe Va1 e sobrepõe o método `getStr()` para retornar a string _"0123456789ABCDEF"_. Além disso, o método ini() é redefinido para retornar uma sub-string de uma string de entrada a partir da posição final.
 
 - O método `fin()` retorna a concatenação de duas sub-strings, uma retornada pelo método `ini()` e outra retornada diretamente da string original. A sub-string retornada pelo mét`ini()` é calculada a partir da posição final da string original, com base no argumento `"cpr"`.
-
-- Ao final, temos a saída "lmnoplmnop", que corresponde à concatenação de duas sub-strings de tamanho 5, ambas retiradas da string "0123456789ABCDEF".
 
 - Em resumo, a saída _"lmnoplmnop"_ é resultado da manipulação de strings e da chamada de métodos na classe `Va2`", que herda comportamentos da classe `Va1`.
 
@@ -29,5 +26,5 @@ Explicando de uma maneira mais nerd
 <br>
 <br>
 <blockquote>
-<p>   Eu retirei esse código de uma questão do concurso público do banco do Brasil de 2021.<p>
+<p>   Eu retirei esse código de uma questão do concurso público do banco do Brasil de 2021, também fiz algumas alteraçoes para que ele pudesse rodar.<p>
 <blockquote>
