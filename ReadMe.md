@@ -7,7 +7,8 @@ Esse código é uma implementação de duas classes em Java,`Va1` e `Va2`. A cla
 
 <hr/>
 
-    <h3>Explicando de uma maneira mais nerd<h3>
+Explicando de uma maneira mais nerd
+===================================
 
 - Primeiramente, é criada uma classe chamada "Main", que possui um método main estático(_static void main_) para iniciar a execução do código. Dentro desse método main criamos um objeto "o" da classe `Va2` com a referência ao tipo `Va1`. Em seguida, chamamos o método `fin()` passando o objeto **"o"** e o retorno de **o**.`getStr()` com o argumento `"cpr"` sendo 5.
 
