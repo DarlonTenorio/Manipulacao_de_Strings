@@ -2,7 +2,7 @@ public class Main {
   public static void main(String[] args) {
     Va1 o = new Va2();
 
-    System.out.println(o.fin(o.getStr(), 5));
+    System.out.println(o.fin(o.getStr(), 5)); // caractere para retorno
   }
 }
 
